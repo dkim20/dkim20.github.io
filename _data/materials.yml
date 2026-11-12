@@ -4,7 +4,7 @@ research:
     label: arXiv
     source: dkim20.github.io/404.html
     local: 
-    description: Preprint.
+    description: <i>Preprint</i>.
   - title: "Generalizing a Pair of Diophantine Equations"
     label: arXiv
     source: https://arxiv.org/abs/2609.08728
