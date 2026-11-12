@@ -29,7 +29,7 @@ title: Teaching
 {% if site.data.mentoring %}
 <section>
   <h2>Mentoring</h2>
-  <dl class="timeline">
+  <dl class="timeline timeline-right">
     {% for item in site.data.mentoring %}
     <dt>{{ item.term | escape }}</dt>
     <dd>{{ item.role | escape }}, {% if item.url %}<a href="{{ item.url }}">{{ item.program | escape }}</a>{% else %}{{ item.program | escape }}{% endif %}{% if item.description %}<p class="entry-meta">{{ item.description | escape }}</p>{% endif %}</dd>
