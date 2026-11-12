@@ -9,12 +9,12 @@ research:
     label: arXiv
     source: https://arxiv.org/abs/2609.08728
     local: null
-    description: With Hùng Việt Chu, Theodore Koch, Steven J. Miller, and Anh Việt Nguyên. Preprint.
+    description: With Hùng Việt Chu, Theodore Koch, Steven J. Miller, and Anh Việt Nguyên. <br><i>Preprint</i>.
   - title: "A Pair of Diophantine Equations Involving the Fibonacci Numbers"
     label: arXiv
     source: https://arxiv.org/abs/2409.02933
     local: null
-    description: With Xuyuan Chen, Hùng Việt Chu, Fadhlannafis K. Kesumajana, Liran Li, Steven J. Miller, Junchi Yang, and Chris Yao. Fibonacci Quarterly 63 (2025), no. 3, 542-553.
+    description: With Xuyuan Chen, Hùng Việt Chu, Fadhlannafis K. Kesumajana, Liran Li, Steven J. Miller, Junchi Yang, and Chris Yao. <br><i>Fibonacci Quarterly</i> <b>63</b> (2025), no. 3, 542-553.
 # expository:
   # - title: [blank]
   #   source: [blank]
