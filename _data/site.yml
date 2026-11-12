@@ -12,11 +12,11 @@ Office:
 - 751 Astronomy-Mathematics Building
 - Taipei, Taiwan
 biography_html: |
-  I am a research trainee in the [Institute of Mathematics](https://www.math.sinica.edu.tw/) at [Academia Sinica](https://www.sinica.edu.tw/en) advised by [John F. R. Duncan](https://sites.google.com/site/johnfrduncan).
+  I am a research trainee in the \href{https://www.math.sinica.edu.tw/}{Institute of Mathematics} at \href{https://www.sinica.edu.tw/en}{Academia Sinica} advised by \href{https://sites.google.com/site/johnfrduncan/}{John F. R. Duncan}.
 
   My research interests lie in number theory and arithmetic geometry. Specifically, I am interested in problems on elliptic curves, modular forms, and Diophantine equations.
-
-  From 2021 to 2025, I was an undergraduate student at the University of California, Berkeley, where I double majored in mathematics and computer science. My honors thesis, advised by [Zeyu Liu](https://math.berkeley.edu/~zeliu/), can be found [here](https://dkim20.github.io/files/honors_thesis.pdf).
+  
+  From 2021 to 2025, I was an undergraduate student at the University of California, Berkeley, where I double majored in mathematics and computer science. My honors thesis, advised by \href{https://math.berkeley.edu/~zeliu/}{Zeyu Liu}, can be found \href{https://dkim20.github.io/files/honors_thesis.pdf}{here}.
 cv: /files/cv.pdf
 footer: Mathematics · Research · Teaching
 navigation:
