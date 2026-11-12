@@ -9,15 +9,17 @@ title: Teaching
 <p>My teaching and mentoring experience includes [blank] For my complete teaching record, see the <a href="{{ site.data.site.cv | relative_url }}">curriculum vitae</a>.</p>
 
 
-{% assign institutions = site.data.teaching | group_by: "institution" %}
-{% for inst in institutions %}
 <section>
-  <h2>{{ inst.name | escape }}</h2>
+  <h2>Teaching</h2>
+  {% assign institutions = site.data.teaching | group_by: "institution" %}
+  {% for inst in institutions %}
+  <h3>{{ inst.name | escape }}</h3>
   <dl class="timeline">
     {% for item in inst.items %}
     <dt>{{ item.term | escape }}</dt>
     <dd>{{ item.course | escape }}{% if item.role %} ({{ item.role | escape }}){% endif %}</dd>
     {% endfor %}
   </dl>
+  {% endfor %}
 </section>
 {% endfor %}
