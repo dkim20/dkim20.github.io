@@ -17,9 +17,9 @@ title: Teaching
   <dl class="timeline">
     {% for item in inst.items %}
     {% assign parts = item.term | split: " " %}
+    {% assign season = parts | first %}
     {% assign year = parts | last %}
-    {% assign season = item.term | remove_last: year | strip %}
-  <dt><span>{{ season | escape }}</span><span>{{ year | escape }}</span></dt>
+  <dt><span>{{ season | escape }}</span><span>{{ year | escape }}</span></dt> 
   <dd>{{ item.course | escape }}{% if item.role %} ({{ item.role | escape }}){% endif %}</dd>
     {% endfor %}
   </dl>
