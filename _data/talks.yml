@@ -9,7 +9,7 @@
 
 - date: '2024-12-12'
   display_date: 12 December 2024
-  title: Representation Theory of \\text{GL}_2(\\mathbb{F}_q)
+  title: Representation Theory of \(\mathrm{GL}_2(\mathbb{F}_q)\)
   venue: Berkeley Directed Reading Program Talk
   invited: false
   collaborators: null
