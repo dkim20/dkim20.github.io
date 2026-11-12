@@ -12,11 +12,11 @@ Office:
 - 751 Astronomy-Mathematics Building
 - Taipei, Taiwan
 biography_html: |
-  I am a research trainee in the <a href="https://www.math.sinica.edu.tw/">Institute of Mathematics</a> at <a href="https://www.sinica.edu.tw/en">Academia Sinica</a> advised by <a href="https://sites.google.com/site/johnfrduncan/">John F. R. Duncan</a>.
+  <p>I am a research trainee in the <a href="https://www.math.sinica.edu.tw/">Institute of Mathematics</a> at <a href="https://www.sinica.edu.tw/en">Academia Sinica</a> advised by <a href="https://sites.google.com/site/johnfrduncan/">John F. R. Duncan</a>.</p>
 
-  My research interests lie in number theory and arithmetic geometry. Specifically, I am interested in problems on elliptic curves, modular forms, and Diophantine equations.
+  <p>My research interests lie in number theory and arithmetic geometry. Specifically, I am interested in problems on elliptic curves, modular forms, and Diophantine equations.</p>
   
-  From 2021 to 2025, I was an undergraduate student at the University of California, Berkeley, where I double majored in mathematics and computer science. My honors thesis, advised by <a href=https://math.berkeley.edu/~zeliu/>Zeyu Liu</a>, can be found <a href="https://dkim20.github.io/files/honors_thesis.pdf">here</a>.
+  <p>From 2021 to 2025, I was an undergraduate student at the University of California, Berkeley, where I double majored in mathematics and computer science. My honors thesis, advised by <a href=https://math.berkeley.edu/~zeliu/>Zeyu Liu</a>, can be found <a href="https://dkim20.github.io/files/honors_thesis.pdf">here</a>.</p>
 cv: /files/cv.pdf
 footer: Mathematics · Research · Teaching
 navigation:
