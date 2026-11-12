@@ -31,8 +31,15 @@ title: Teaching
   <h2>Mentoring</h2>
   <dl class="timeline timeline-right">
     {% for item in site.data.mentoring %}
-    <dt>{{ item.term | escape }}</dt>
-    <dd>{{ item.role | escape }}, {% if item.url %}<a href="{{ item.url }}">{{ item.program | escape }}</a>{% else %}{{ item.program | escape }}{% endif %}{% if item.description %}<p class="entry-meta">{{ item.description | escape }}</p>{% endif %}</dd>
+    {% assign range = item.term | split: " – " %}
+    {% if range.size == 2 %}
+    {% assign left = range[0] %}{% assign mid = "–" %}{% assign right = range[1] %}
+    {% else %}
+    {% assign words = item.term | split: " " %}
+    {% assign left = words | first %}{% assign mid = "" %}{% assign right = words | last %}
+    {% endif %}
+  <dt><span>{{ left | escape }}</span>{% if mid != "" %}<span>{{ mid }}</span>{% endif %}<span>{{ right | escape }}</span></dt>
+  <dd>{{ item.role | escape }}, {% if item.url %}<a href="{{ item.url }}">{{ item.program | escape }}</a>{% else %}{{ item.program | escape }}{% endif %}{% if item.description %}<p class="entry-meta">{{ item.description | escape }}</p>{% endif %}</dd>
     {% endfor %}
   </dl>
 </section>
