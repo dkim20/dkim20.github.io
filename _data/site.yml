@@ -1,20 +1,22 @@
 # Edit personal information and header navigation here.
 # biography_html accepts HTML; other fields are plain text.
-name: Cassandra (Cass) Halleck-Dubé
-short_name: Cass Halleck-Dubé
+name: Dongho Tommy Kim
+short_name: Dongho Kim
 field: Mathematics
-description: Geometric representation theory and the Langlands program.
-affiliation: MPIM Bonn
+description: Research Trainee
+affiliation: Institute of Mathematics, Academia Sinica
 portrait: /assets/chd.jpg
-email: halleckdube@mpim-bonn.mpg.de
-address:
-- Max Planck Institute for Mathematics
-- Vivatsgasse 7
-- 53111 Bonn, Germany
+email: dkim@as.edu.tw
+Office:
+- Institute of Mathematics, Academia Sinica
+- 751 Astronomy-Mathematics Building
+- Taipei, Taiwan
 biography_html: |
-  In Spring 2026, I completed my PhD at UC Berkeley under <a href="https://math.berkeley.edu/~swshin/">Sug Woo Shin</a>.
-  During the 2026-2027 academic year, I will be visiting as a postdoctoral fellow at the <a href="https://www.mpim-bonn.mpg.de/">Max Planck Institute for Mathematics</a>, mentored by <a href="https://www.math.uni-bonn.de/people/kaletha/">Tasho Kaletha</a>.
-  Beginning in 2027, I will be a Griffiths Assistant Professor at <a href="https://math.duke.edu/">Duke University</a>.
+  I am a research trainee in the [Institute of Mathematics](https://www.math.sinica.edu.tw/) at [Academia Sinica](https://www.sinica.edu.tw/en) advised by [John F. R. Duncan](https://sites.google.com/site/johnfrduncan).
+
+  My research interests lie in number theory and arithmetic geometry. Specifically, I am interested in problems on elliptic curves, modular forms, and Diophantine equations.
+
+  From 2021 to 2025, I was an undergraduate student at the University of California, Berkeley, where I double majored in mathematics and computer science. My honors thesis, advised by [Zeyu Liu](https://math.berkeley.edu/~zeliu/), can be found [here](https://dkim20.github.io/files/honors_thesis.pdf).
 cv: /files/cv.pdf
 footer: Mathematics · Research · Teaching
 navigation:
@@ -26,7 +28,5 @@ navigation:
   url: /teaching.html
 - label: Talks
   url: /talks.html
-- label: Mathematics and AI Seminar
-  url: /mathematics-and-ai-seminar.html
 - label: CV
   url: /files/cv.pdf
