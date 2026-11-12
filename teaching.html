@@ -31,9 +31,9 @@ title: Teaching
   <h2>Mentoring</h2>
   <dl class="timeline timeline-right">
     {% for item in site.data.mentoring %}
-    {% assign range = item.term | split: " – " %}
+    {% assign range = item.term | split: " - " %}
     {% if range.size == 2 %}
-    {% assign left = range[0] %}{% assign mid = "–" %}{% assign right = range[1] %}
+    {% assign left = range[0] %}{% assign mid = "-" %}{% assign right = range[1] %}
     {% else %}
     {% assign words = item.term | split: " " %}
     {% assign left = words | first %}{% assign mid = "" %}{% assign right = words | last %}
