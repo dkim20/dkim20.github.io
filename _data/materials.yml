@@ -1,6 +1,6 @@
 use_local: true
 research:
-  - title: Counting Schreier Sets with Minimum 2
+  - title: Counting Second-Order Schreier Sets with Minimum 2
     label: arXiv
     source: dkim20.github.io/404.html
     local: 
