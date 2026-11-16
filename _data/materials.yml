@@ -2,7 +2,7 @@ use_local: true
 research:
   - title: Counting Second-Order Schreier Sets with Minimum 2
     label: arXiv
-    source: dkim20.github.io/404.html
+    source: https://arxiv.org/abs/2611.17371
     local: 
     description: <i>Preprint</i>.
   - title: "Generalizing a Pair of Diophantine Equations"
