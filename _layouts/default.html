@@ -32,7 +32,7 @@
       <p class="profile-name">{{ person.short_name | escape }}</p>
       <p class="profile-field">{{ person.field | escape }}</p>
       <p class="profile-description">{{ person.description | escape }}</p>
-      <p class="profile-affiliation">{{ person.affiliation | escape }}</p>
+      <p class="profile-affiliation">{{ person.affiliation}}</p>
       <div class="profile-links">
         <a href="{{ '/index.html#contact' | relative_url }}">Contact</a>
         <a href="{{ person.cv | relative_url }}">Curriculum vitae</a>
